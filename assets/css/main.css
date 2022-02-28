@@ -2385,7 +2385,7 @@ input, select, textarea {
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: top;
-			width: 48%;
+			width: 100%;
 		}
 
 			ul.feature-icons li:before {
@@ -2665,7 +2665,7 @@ input, select, textarea {
 
 		.features article .image {
 			display: inline-block;
-			padding-right: 2.5em;
+			padding-right: 1.5em;
 			vertical-align: middle;
 			width: 48%;
 		}
@@ -2783,6 +2783,7 @@ input, select, textarea {
 		}
 
 			#header > nav ul {
+				border-top: solid 2px #9DC88D;/* used to be #5ccfb1*/
 				list-style: none;
 				margin: 0;
 				padding: 0;
@@ -2802,7 +2803,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.6em 0;
 						text-decoration: none;
 					}
 
