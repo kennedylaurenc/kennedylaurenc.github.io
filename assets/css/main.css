@@ -3010,7 +3010,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 88px 0 1px 0;
+				padding: 78px 0 1px 0;
 			}
 
 		/* Header Panel */
@@ -3025,7 +3025,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 78px;
+				height: 68px;
 				left: 0;
 				position: fixed;
 				top: 0;
@@ -3041,8 +3041,8 @@ input, select, textarea {
 					display: block;
 					font-weight: 700;
 					font-size: 25px;
-					height: 78px;
-					line-height: 78px;
+					height: 68px;
+					line-height: 68px;
 					padding: 0 1em;
 					width: 100%;
 					text-align: center;
@@ -3083,12 +3083,12 @@ input, select, textarea {
 						content: '\f0c9';
 						display: block;
 						font-size: 25px;
-						height: 78px;
-						line-height: 78px;
+						height: 68px;
+						line-height: 68px;
 						position: absolute;
 						text-align: center;
 						top: 0;
-						width: 78px;
+						width: 68px;
 						right: 0;
 					}
 
@@ -3240,8 +3240,8 @@ input, select, textarea {
 			}
 
 				#titleBar .toggle:before {
-					font-size: 30px;
-					width: 78px;
+					font-size: 25px;
+					width: 68px;
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
