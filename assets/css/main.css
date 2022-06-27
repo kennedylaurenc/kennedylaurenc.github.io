@@ -3040,7 +3040,7 @@ input, select, textarea {
 					color: #fff;
 					display: block;
 					font-weight: 700;
-					font-size: 30px;
+					font-size: 25px;
 					height: 78px;
 					line-height: 78px;
 					padding: 0 1em;
@@ -3082,7 +3082,7 @@ input, select, textarea {
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
-						font-size: 30px;
+						font-size: 25px;
 						height: 78px;
 						line-height: 78px;
 						position: absolute;
