@@ -133,8 +133,15 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h3, h4, h5, h6 {
 		color: #777;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
+	}
+
+h2{
+		color: #202020;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1791,7 +1798,7 @@ input, select, textarea {
 
 		header.major h2 + p {
 			color: #777;
-			font-size: 1.75em;
+			font-size: 1.6em;
 			font-weight: 700;
 			margin-top: -0.75em;
 		}
@@ -2204,7 +2211,17 @@ input, select, textarea {
 			border-radius: 0;
 		}
 
+		.image.foot {
+			display: block;
+			height: 20em;
+			border-radius: 0;
+		}
+
 			.image.main img {
+				border-radius: 0;
+			}
+
+			.image.foot img {
 				border-radius: 0;
 			}
 
@@ -2711,9 +2728,10 @@ input, select, textarea {
 		right: 0;
 	}
 
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h1, #header h2,  #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
+
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: #ffffff;
@@ -2741,8 +2759,8 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
-				width: 8em;
+				margin: 0 auto 0.5em 3.1em;
+				width: 10em;
 			}
 
 			#header > header h1 {
@@ -2837,6 +2855,20 @@ input, select, textarea {
 			border-top: 0;
 		}
 
+		/* Foot */
+
+			#foot > section {
+				border-top: solid 6px #f4f4f4;
+			}
+
+				#foot > section > .container {
+					padding: 6em 0 4em 0;
+				}
+
+				#foot > section:first-child {
+					border-top: 0;
+				}
+
 /* Footer */
 
 	#footer {
@@ -2907,6 +2939,12 @@ input, select, textarea {
 				padding: 4em 0 2em 0;
 			}
 
+			/* foot */
+
+				#foot > section > .container {
+					padding: 4em 0 2em 0;
+				}
+
 	}
 
 /* Large */
@@ -2962,6 +3000,10 @@ input, select, textarea {
 				}
 
 			.image.main {
+				height: 20em;
+			}
+
+			.image.foot {
 				height: 20em;
 			}
 
@@ -3147,6 +3189,9 @@ input, select, textarea {
 			.image.main {
 				height: 12em;
 			}
+			.image.foot {
+				height: 12em;
+			}
 
 		/* Section/Article */
 
@@ -3213,6 +3258,12 @@ input, select, textarea {
 			#main > section > .container {
 				padding: 2em 0 0 0;
 			}
+
+			/*Foot */
+
+				#foot > section > .container {
+					padding: 2em 0 0 0;
+				}
 
 		/* Footer */
 
