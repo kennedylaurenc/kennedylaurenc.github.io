@@ -110,14 +110,16 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		border-bottom: solid 1px #202020;
+		color: #202020;
+		font-style: bold;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: 	#202020!important;
+			color: 	#F37677!important;
+			font-style: bold;
 		}
 
 	strong, b {
@@ -2746,7 +2748,7 @@ h2{
 		}
 
 			#header a:hover {
-				color: #ffffff !important;
+				color: #F37677 !important;
 			}
 
 		#header > header {
