@@ -2212,10 +2212,10 @@ h2{
 	margin-right: auto;
 	display: block;
 	border-radius: 100%;
-	/* float: left; */
+	 /* float: left; */
   width:  300px;
   height: 300px;
-	vertical-align: center;
+	/* vertical-align: center; */
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 5%;
@@ -2224,7 +2224,6 @@ h2{
 }
 
 
-</head>
 		.image.main {
 			display: block;
 			height: 20em;
@@ -2724,18 +2723,41 @@ h2{
 				margin-bottom: 0;
 			}
 
-			.column {
-			  float: left;
+			/* .personcontainer{
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+			.personcolumn {
+			  flex: 1;
 			  width: 50%;
 				vertical-align: middle;
 			}
 
+			@media screen and (max-width:768 px){
+				.personcolumn{
+					width: 100%;
+				}
+			} */
+
+			.personcolumn {
+			  float: left;
+			  width: 50%;
+				vertical-align: middle;
+			}
+			@media screen and (max-width:768 px){
+				.personcolumn{
+					display: flex;
+					flex-direction: column;
+				}
+			}
+
 			/* Clear floats after the columns */
-			.row:after {
+			/* .row:after {
 			  content: "";
 			  display: table;
 			  clear: both;
-			}
+			} */
 
 
 /* Header */
