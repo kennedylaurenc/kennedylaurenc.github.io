@@ -2207,6 +2207,24 @@ h2{
 				width: 100%;
 			}
 
+			.person {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 100%;
+	/* float: left; */
+  width:  300px;
+  height: 300px;
+	vertical-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+  object-fit: cover;
+}
+
+
+</head>
 		.image.main {
 			display: block;
 			height: 20em;
@@ -2226,6 +2244,8 @@ h2{
 			.image.foot img {
 				border-radius: 0;
 			}
+
+
 
 /* List */
 
@@ -2703,6 +2723,20 @@ h2{
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+
+			.column {
+			  float: left;
+			  width: 50%;
+				vertical-align: middle;
+			}
+
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
 
 /* Header */
 
