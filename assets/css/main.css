@@ -2207,21 +2207,39 @@ h2{
 				width: 100%;
 			}
 
-			.person {
+			.image.person img {
+				border-radius: 100%;
+				display: block;
+				/* margin-left: auto;
+				margin-right: auto; */
+				/* float: left; */
+				width:  300px;
+				height: 300px;
+				min-width: 300px;
+				max-width: 300px;
+				padding-left: 5%;
+				padding-right: 5%;
+				padding-top: 5%;
+				padding-bottom: 8%;
+				object-fit: cover;
+				width: 100%;
+			}
+
+			/* .person {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	border-radius: 100%;
+	border-radius: 100%; */
 	 /* float: left; */
-  width:  300px;
-  height: 300px;
+  /* width:  300px;
+  height: 300px; */
 	/* vertical-align: center; */
-	padding-left: 5%;
+	/* padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 5%;
 	padding-bottom: 5%;
   object-fit: cover;
-}
+} */
 
 
 		.image.main {
@@ -2704,7 +2722,7 @@ h2{
 		.features article .image {
 			display: inline-block;
 			padding-right: 1.5em;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 48%;
 		}
 
@@ -2712,6 +2730,7 @@ h2{
 				display: block;
 				width: 100%;
 			}
+
 
 		.features article .inner {
 			display: inline-block;
@@ -2740,7 +2759,7 @@ h2{
 				}
 			} */
 
-			.personcolumn {
+			/* .personcolumn {
 			  float: left;
 			  width: 50%;
 				vertical-align: middle;
@@ -2748,9 +2767,9 @@ h2{
 			@media screen and (max-width:768 px){
 				.personcolumn{
 					display: flex;
-					flex-direction: column;
+    flex-direction: column;
 				}
-			}
+			} */
 
 			/* Clear floats after the columns */
 			/* .row:after {
