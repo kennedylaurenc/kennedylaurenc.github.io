@@ -3444,3 +3444,14 @@ h2{
 			}
 
 	}
+	const details = document.querySelectorAll("details");
+
+details.forEach((el) => {
+  el.addEventListener("click", () => {
+    details.forEach((detail) => {
+      if (detail !== el) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
